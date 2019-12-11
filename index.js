@@ -38,7 +38,7 @@ async function writePDF() {
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
           </head>
           <body style="background-color: ${favColor};">
-              <h1 style="text-align: center;">${name}</h1>
+              <h1>${name}</h1>
               <img src="${image}" alt="profile image" height="42" width="42">
               <a href="${link}">GitHub profile</a>
               <h2>Following: ${following}</h2>
