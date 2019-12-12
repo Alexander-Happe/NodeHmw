@@ -40,11 +40,11 @@ async function writePDF() {
           <body style="background-color: ${favColor};">
               <h1>${name}</h1>
               <img src="${image}" alt="profile image" height="42" width="42">
+              <a href ="https://www.google.com/maps/place/${location}">Location: ${location}</a>
               <a href="${link}">GitHub profile</a>
               <h2>Following: ${following}</h2>
               <h2>Followers: ${followers}</h2>
               <h2>Number of repos: ${repos}</h2>
-              <h2>Location: ${location}</h2>
               <h2>Bio: ${bio}</h2>
               
             
